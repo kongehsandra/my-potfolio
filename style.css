@@ -80,35 +80,38 @@
     padding-left: 35px;
     list-style: none;
   }
-.projects {
-  padding-top: 150px;
-}
+
+  .projects {
+    padding-top: 150px;
+  }
+
   .title h2 {
     font-size: 35px;
     font-weight: bold;
     text-align: center;
   }
+
   .title p {
     border: 1px solid grey;
     margin: 10px 35px 70px 35px;
     text-align: center;
   }
+
   .multi {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .multi-title span h3 {
-    font-size: 30px;
-    margin-left: -66px;
-    
-  }
+
+
+
   .multi-para p {
-    margin: -10px 15px 0px 15px;
+    margin: -10px 15px 0 15px;
     line-height: 26px;
     font-size: 17px;
   }
+
   .multi-lang ul {
     display: flex;
     align-items: center;
@@ -117,11 +120,13 @@
     list-style: none;
     margin-left: -55px;
   }
+
   .multi-lang ul li {
     font-size: 20px;
     border: 1px solid grey;
     padding: 5px;
   }
+
   .multi-but button {
     margin-left: -164px;
     font-size: 20px;
@@ -130,10 +135,11 @@
     border: 1px solid orangered;
     padding: 10px 15px;
   }
+
   .cards {
     margin-top: 80px;
-    
   }
+
   .card {
     background-image: url(./assets/images/proj.jpg);
     background-repeat: no-repeat;
@@ -144,19 +150,26 @@
     flex-direction: column;
     max-width: 350px;
     gap: 15px;
-    margin: 15px 0px;
+    margin: 15px 0;
   }
+
   .card-tittle h3 {
     font-size: 27px;
     color: #fff;
     margin: 5px 25px;
-
   }
+
+  .multi-title span h3 {
+    font-size: 30px;
+    margin-left: -66px;
+  }
+
   .card-para p {
     color: #fff;
     font-size: 18px;
     margin: 2px 20px;
-  } 
+  }
+
   .card-lang ul {
     display: flex;
     justify-content: center;
@@ -164,30 +177,31 @@
     gap: 10px;
     list-style: none;
     margin-left: -55px;
-  
   }
+
   .card-lang ul li {
     font-size: 18px;
     border: 1px solid grey;
     color: #fff;
     padding: 5px 10px;
     background-color: gray;
+  }
 
-}
-.card-butt {
- max-width: 350px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 5px;
-}
-.card-butt button {
-  margin:2px 100%;
-  text-wrap: nowrap;
-  padding: 5% 125%;
-  background-color: orangered;
-  font-size: 20px;
-  color: #fff;
-  border: none;
-}
+  .card-butt {
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .card-butt button {
+    margin: 2px 100%;
+    text-wrap: nowrap;
+    padding: 5% 125%;
+    background-color: orangered;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+  }
 }
