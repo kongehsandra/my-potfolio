@@ -1,4 +1,8 @@
-@media screen and (min-width: 280px) and (max-width: 768px) {
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
   body {
     font-family: 'Poppins', sans-serif;
   }
@@ -201,5 +205,103 @@
     font-size: 20px;
     color: #fff;
     border: none;
+  }
+
+  /* About section mobile */
+  .abt-container {
+    background-color: #1c1a19;
+    padding: 80px 2px 20px 1px;
+    margin: 150px 0 10px 0;
+  }
+
+  .abt-me {
+    background-image: url(./assets/images/abt-mobile-background.png);
+    background-repeat: no-repeat;
+    padding-bottom: 250px;
+    background-position-x: 100%;
+    background-position-y: 370px;
+  }
+
+  .abt-me-title h2 {
+    font-size: 60px;
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .abt-me-para p {
+    margin: 10px 18px 10px 18px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+
+  .abt-me-btn button {
+    background-color: orangered;
+    padding: 17px 40px 17px 40px;
+    border: none;
+    color: #fff;
+    margin-left: 19px;
+  }
+
+  .abt-line p {
+    border: 1px solid white;
+    margin: 225px 20px 20px 20px;
+  }
+
+  .abt-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: -200px;
+  }
+
+  .abt-card {
+    padding: 2px 80px;
+    max-width: 260px;
+  }
+
+  .abt-card-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 50px;
+    margin: 1px 10px 1px -70px;
+  }
+
+  .abt-card-title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 52px;
+  }
+
+  .abt-card-title h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .abt-card-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+  }
+
+  .abt-card-list ul li {
+    color: #fff;
+    font-size: 27px;
+    text-wrap: nowrap;
+  }
+
+  .abt-card-list ul li span {
+    margin-left: -30px;
   }
 }
