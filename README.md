@@ -102,6 +102,10 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
+## Live Demo <a></a>
+Visit this [link](https://kongehsandra.github.io/my-potfolio/) to vview this project live.
+
+
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project you can go ahead give a star to the repository.
